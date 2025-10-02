@@ -1,0 +1,67 @@
+# ══════════════════════════════════════════════════════════════════════════
+# BasicCalculatorAiAgentApp - .gitignore
+# ══════════════════════════════════════════════════════════════════════════
+
+# ── Python: bytecode / cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ── Virtual Environments ─────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Environment Variables (CRITICAL!) ────────────────────────────────────
+.env
+.envrc
+# Örnek dosyayı repoda tut
+!.env.example
+
+# ── Packaging / Distribution ─────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Testing / Coverage ───────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs ─────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS Generated ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Type Checking / Linting ──────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# ── Jupyter (eğer kullanıyorsan) ─────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Project Specific ─────────────────────────────────────────────────────
+# Geçici test dosyaları
+temp/
+tmp/
+*.tmp
