@@ -89,6 +89,3 @@ Basit PR'lar, hata raporları ve iyileştirmeler memnuniyetle karşılanır. Kü
 
 Bu proje herhangi bir lisans belirtmiyorsa kişisel kullanım içindir. İsterseniz üst satıra uygun bir açık kaynak lisansı ekleyin (ör. MIT).
 
----
-
-İhtiyaç halinde README'yi İngilizceye çevirebilir, `requirements.txt`'i güncelleyebilir veya örnek giriş-çıkış testleri ekleyebilirim. Ne istersiniz?
